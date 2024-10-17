@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.elements-container {
+    width: 600px;
+    height: 400px;
+    margin: 0 auto;
+    outline: 2px solid red;
+}
+
+.element {
+    stroke-width: 5;
+    transition: all 1s;
+}
+
+.square {
+    fill:rgb(0,0,255);
+    stroke:rgb(34, 177, 187);
+}
+.square:hover {
+    fill: rgb(34, 177, 187);
+    stroke:  rgb(0,0,255);
+}
+
+.rectangle {
+    fill: rgb(206, 15, 15);
+    stroke: orange;
+}
+
+.rectangle:hover {
+    fill: orange;
+    stroke:  rgb(206, 15, 15);
+}
+
+.circle {
+    fill: rgb(24, 24, 24);
+    stroke: rgb(161, 161, 161);
+}
+
+.circle:hover {
+    fill: rgb(161, 161, 161);
+    stroke: rgb(24, 24, 24);
+}
+
+.ellipse {
+    fill: rgb(145, 255, 0);
+    stroke: rgb(27, 116, 0);
+}
+
+.ellipse:hover {
+    fill: rgb(27, 116, 0);
+    stroke: rgb(145, 255, 0);
+}
+
+.stem {
+    fill: brown;
+    stroke: rgb(46, 7, 0);
+}
+
+.stem:hover {
+    fill: rgb(46, 7, 0);
+    stroke: brown;
+}
